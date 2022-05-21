@@ -1,0 +1,30 @@
+td { 
+  height: 100px;
+  width: 100px;
+  background-color:  white;
+  border: 1px solid gray;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.blackCell{ 
+  background-color:  #000;
+}
+
+.temp { 
+  box-shadow: inset 1px 1px 9px 4px rgb(41, 119, 197);
+}
+
+.temp:hover { 
+  box-shadow: inset 1px 1px 9px 4px rgb(194, 197, 41);
+}
+
+.selected { 
+  box-shadow: inset 1px 1px 9px 4px rgb(216, 79, 79);
+}
+
+.canEat {
+  box-shadow: inset 1px 1px 9px 4px rgb(61, 170, 87);
+}
